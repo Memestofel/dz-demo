@@ -10,7 +10,7 @@ isDrunk - пьян
  */
 
  const hasLicence = true;
- const age = 19;
+ const age = 9;
  const isDrunk = false;
 
 console.log(hasLicence && age >= 18 && !isDrunk ? `Может` : `не может`)  

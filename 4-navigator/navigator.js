@@ -4,7 +4,8 @@
 // addressLong - адрес назначения long
 // positionLat - текущее положение пользователя lat
 // positionLong - текущее положение пользователя long
-// В результате на основе этих координат нужно посчитать расстояние от текущего месторасположения до назначения.
+// В результате на основе этих координат нужно посчитать расстояние от текущего месторасположения 
+// до назначения.
 
 let addressLat;
 let addressLong;
@@ -20,5 +21,5 @@ let result = distanceCalculator(addressLat, addressLong, positionLat, positionLo
 console.log(result)
 
 function distanceCalculator(x1, y1, x2, y2) {
-    return Math.sqrt((x2-x1)**2 + (y2-y1)**2);
+    return Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2);
 }
