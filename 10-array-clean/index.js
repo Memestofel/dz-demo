@@ -19,9 +19,9 @@ function filterDelete(num, element) {
     return (num > element);
 }
 
-function upperFunc(fn, array) {
+function upperFunc(fn, araray) {
     let filteredArray = [];
-    for (const element of array) {
+    for (const element of araray) {
         if (fn(5, Number(element))) {
             filteredArray.push(element)
         }
